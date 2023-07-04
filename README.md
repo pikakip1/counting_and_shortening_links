@@ -5,15 +5,12 @@
 
 # Требования для запуска программы
 
-Для успешного запуска программы, установите две библиотеки   
+Для успешного запуска программы, установите две библиотеки  
 С помощью команды  
 ```
-pip install requests
+pip install -r requirements.txt
 
-pip install python-dotenv
 ```
-
-Актуальная версия requests и python-dotenv есть в файле requirements.txt  
 
 # Переменные окружения
 
