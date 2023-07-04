@@ -41,7 +41,7 @@ def main():
     parser = argparse.ArgumentParser(
         description='Программа для укорачивания ссылок и подсчета переходов'
     )
-    parser.add_argument('url', help='name')
+    parser.add_argument('url')
     args = parser.parse_args()
     url = args.url
     load_dotenv('BITLINK_TOKEN.env')
