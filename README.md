@@ -28,7 +28,7 @@ pip install python-dotenv
 
 При передаче неукороченной версии ссылки:  
 ```
-https://www.deepl.com/ru/translator
+python main.py https://www.deepl.com/ru/translator
 ```
 
 Программа выводит:  
@@ -38,9 +38,9 @@ https://www.deepl.com/ru/translator
 
 При передаче укороченной версии ссылки, программа выведет количество переходов по ней  
 ``` 
-Количество переходов: https://bit.ly/3XrcPps
+python main.py https://bit.ly/3XrcPps
 ```
 
 ```
-3
+Количество переходов: 3
 ```
